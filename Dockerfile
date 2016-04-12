@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y --force-yes nginx
 ADD default /etc/nginx/sites-enabled/default
 
 CMD nginx -g 'daemon off;'
-EXPOSE 81
+EXPOSE 80
